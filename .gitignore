@@ -1,0 +1,39 @@
+# Credentials — never commit
+.env
+*.pem
+
+# Source documents and generated artifacts. Plan documents are usually not
+# secret, but they are large and belong in document storage rather than git.
+*.pdf
+*.PDF
+build/
+out/
+*.md.bak
+*.chunks.jsonl
+*.tables.json
+*.validation.json
+
+# Keep the example configuration and reference material
+!pipeline.example.yaml
+!README.md
+!docs/*.md
+!schema/*.md
+!schema/*.json
+
+# Per-document configs may contain group numbers; commit deliberately
+pipeline.yaml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+.mypy_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

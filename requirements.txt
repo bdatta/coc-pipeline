@@ -1,0 +1,31 @@
+# ---------------------------------------------------------------------------
+# COC Pipeline — CLI dependencies
+#
+# Every package here is a pure-Python or wheel-only install. Nothing downloads
+# model weights or data files at runtime, which was a hard requirement: it rules
+# out Docling, Marker and unstructured[local-inference], all of which fetch
+# layout/table-transformer weights on first use.
+# ---------------------------------------------------------------------------
+
+# PDF parsing. Pulls pdfminer.six, Pillow, cryptography.
+pdfplumber>=0.11.4
+
+# Pipeline configuration
+PyYAML>=6.0
+python-dotenv>=1.0
+
+# Storage
+pymongo>=4.10
+
+# Embeddings — install only the provider you use.
+voyageai>=0.3.2
+# openai>=1.40
+
+# Optional: exact token counts. tiktoken downloads its BPE files on first use,
+# so enable it only with a pre-populated TIKTOKEN_CACHE_DIR. Without it the
+# chunker uses a chars/4 estimate, which is accurate enough for sizing.
+# tiktoken>=0.7
+
+# Optional: fully offline embeddings. Requires the model baked in ahead of time;
+# set HF_HUB_OFFLINE=1 and TRANSFORMERS_OFFLINE=1.
+# sentence-transformers>=3.0

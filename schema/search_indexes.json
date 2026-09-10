@@ -1,0 +1,141 @@
+{
+  "coc_chunks": {
+    "atlas_search_indexes": [
+      {
+        "name": "coc_vector_index",
+        "type": "vectorSearch",
+        "definition": {
+          "fields": [
+            {
+              "type": "vector",
+              "path": "embedding",
+              "numDimensions": 1024,
+              "similarity": "cosine"
+            },
+            {
+              "type": "filter",
+              "path": "doc_id"
+            },
+            {
+              "type": "filter",
+              "path": "plan_id"
+            },
+            {
+              "type": "filter",
+              "path": "plan_year"
+            },
+            {
+              "type": "filter",
+              "path": "type"
+            },
+            {
+              "type": "filter",
+              "path": "section_path"
+            },
+            {
+              "type": "filter",
+              "path": "page_start"
+            },
+            {
+              "type": "filter",
+              "path": "needs_review"
+            }
+          ]
+        }
+      },
+      {
+        "name": "coc_text_index",
+        "type": "search",
+        "definition": {
+          "mappings": {
+            "dynamic": false,
+            "fields": {
+              "embed_text": {
+                "type": "string"
+              },
+              "breadcrumb": {
+                "type": "string"
+              },
+              "column_labels": {
+                "type": "string"
+              },
+              "doc_id": {
+                "type": "token"
+              },
+              "plan_id": {
+                "type": "token"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "btree_indexes": [
+      {
+        "keys": {
+          "doc_id": 1,
+          "seq": 1
+        }
+      },
+      {
+        "keys": {
+          "plan_id": 1,
+          "plan_year": 1
+        }
+      },
+      {
+        "keys": {
+          "doc_id": 1,
+          "table_id": 1,
+          "part_index": 1
+        }
+      },
+      {
+        "keys": {
+          "needs_review": 1
+        }
+      },
+      {
+        "keys": {
+          "pipeline_version": 1,
+          "chunk_config_hash": 1
+        }
+      }
+    ]
+  },
+  "coc_documents": {
+    "btree_indexes": [
+      {
+        "keys": {
+          "plan_id": 1,
+          "plan_year": 1
+        }
+      },
+      {
+        "keys": {
+          "source_sha256": 1
+        }
+      }
+    ]
+  },
+  "coc_query_log": {
+    "btree_indexes": [
+      {
+        "keys": {
+          "asked_at": -1
+        }
+      },
+      {
+        "keys": {
+          "doc_id": 1,
+          "asked_at": -1
+        }
+      },
+      {
+        "keys": {
+          "feedback.rating": 1
+        }
+      }
+    ]
+  }
+}

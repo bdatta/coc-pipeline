@@ -1,0 +1,270 @@
+[
+  {
+    "_id": "acme_ppo_2026#00000-6762ba51",
+    "doc_id": "acme_ppo_2026",
+    "seq": 0,
+    "type": "text",
+    "heading": "SECTION 4 - COVERED SERVICES",
+    "section_path": [
+      "SECTION 4 - COVERED SERVICES"
+    ],
+    "breadcrumb": "SECTION 4 - COVERED SERVICES",
+    "text": "This section describes the services covered under the Plan. All services are subject to Medical Necessity review and, where indicated, prior authorization. Benefits are payable only for services received while coverage is in force.",
+    "embed_text": "Section: SECTION 4 - COVERED SERVICES\n\nThis section describes the services covered under the Plan. All services are subject to Medical Necessity review and, where indicated, prior authorization. Benefits are payable only for services received while coverage is in force.",
+    "page_start": 11,
+    "page_end": 11,
+    "n_tokens": 67,
+    "table_id": null,
+    "part_index": 1,
+    "part_total": 1,
+    "n_rows": null,
+    "n_cols": null,
+    "column_labels": [],
+    "has_spans": false,
+    "plan_id": "ACME-PPO-2000",
+    "group_number": "0084512",
+    "plan_year": 2026,
+    "effective_date": {
+      "$date": "2026-01-01T00:00:00Z"
+    },
+    "termination_date": null,
+    "carrier": "Acme Health",
+    "market_segment": "large_group",
+    "states": [
+      "IL",
+      "IN"
+    ],
+    "source_filename": "acme_ppo_2026_coc.pdf",
+    "source_sha256": "0cec93d4c7063672479992eebbbb23669408815396026d83af1e9b6634b580dd",
+    "pipeline_version": "1.1.0",
+    "chunk_config_hash": "5efb05892e89",
+    "created_at": {
+      "$date": "2026-08-15T14:28:40Z"
+    },
+    "updated_at": {
+      "$date": "2026-08-15T14:32:11Z"
+    },
+    "embed_model": "voyage-3.5",
+    "embed_dim": 1024,
+    "embedded_at": {
+      "$date": "2026-08-15T14:32:11Z"
+    },
+    "needs_review": false,
+    "extraction_notes": [],
+    "embedding": [
+      0.0231,
+      -0.0417,
+      0.0688,
+      0.0129,
+      -0.0553,
+      0.0342,
+      -0.0106,
+      0.0475
+    ]
+  },
+  {
+    "_id": "acme_ppo_2026#00001-194547ca",
+    "doc_id": "acme_ppo_2026",
+    "seq": 1,
+    "type": "text",
+    "heading": "Physician Office Visits",
+    "section_path": [
+      "SECTION 4 - COVERED SERVICES",
+      "Outpatient Services",
+      "Physician Office Visits"
+    ],
+    "breadcrumb": "SECTION 4 - COVERED SERVICES > Outpatient Services > Physician Office Visits",
+    "text": "You may select any Participating Provider without a referral. Benefits for services received from a Non-Participating Provider are payable at the Out-of-Network level shown in the Schedule of Benefits.",
+    "embed_text": "Section: SECTION 4 - COVERED SERVICES > Outpatient Services > Physician Office Visits\n\nYou may select any Participating Provider without a referral. Benefits for services received from a Non-Participating Provider are payable at the Out-of-Network level shown in the Schedule of Benefits.",
+    "page_start": 11,
+    "page_end": 11,
+    "n_tokens": 72,
+    "table_id": null,
+    "part_index": 1,
+    "part_total": 1,
+    "n_rows": null,
+    "n_cols": null,
+    "column_labels": [],
+    "has_spans": false,
+    "plan_id": "ACME-PPO-2000",
+    "group_number": "0084512",
+    "plan_year": 2026,
+    "effective_date": {
+      "$date": "2026-01-01T00:00:00Z"
+    },
+    "termination_date": null,
+    "carrier": "Acme Health",
+    "market_segment": "large_group",
+    "states": [
+      "IL",
+      "IN"
+    ],
+    "source_filename": "acme_ppo_2026_coc.pdf",
+    "source_sha256": "0cec93d4c7063672479992eebbbb23669408815396026d83af1e9b6634b580dd",
+    "pipeline_version": "1.1.0",
+    "chunk_config_hash": "5efb05892e89",
+    "created_at": {
+      "$date": "2026-08-15T14:28:40Z"
+    },
+    "updated_at": {
+      "$date": "2026-08-15T14:32:11Z"
+    },
+    "embed_model": "voyage-3.5",
+    "embed_dim": 1024,
+    "embedded_at": {
+      "$date": "2026-08-15T14:32:11Z"
+    },
+    "needs_review": false,
+    "extraction_notes": [],
+    "embedding": [
+      0.0231,
+      -0.0417,
+      0.0688,
+      0.0129,
+      -0.0553,
+      0.0342,
+      -0.0106,
+      0.0475
+    ]
+  },
+  {
+    "_id": "acme_ppo_2026#00002-d61e345d",
+    "doc_id": "acme_ppo_2026",
+    "seq": 2,
+    "type": "table",
+    "heading": "Physician Office Visits",
+    "section_path": [
+      "SECTION 4 - COVERED SERVICES",
+      "Outpatient Services",
+      "Physician Office Visits"
+    ],
+    "breadcrumb": "SECTION 4 - COVERED SERVICES > Outpatient Services > Physician Office Visits",
+    "text": "| Covered Service | Cost Share - In-Network | Cost Share - Out-of-Network |\n| --- | --- | --- |\n| Office Visits | $25 copay | 40% after deductible |\n| Specialist Visits | $40 copay | 50% after deductible |\n| Urgent Care | $75 copay | $75 copay |",
+    "embed_text": "Section: SECTION 4 - COVERED SERVICES > Outpatient Services > Physician Office Visits\nTable tbl-0007 (pages 12-13)\n\n| Covered Service | Cost Share - In-Network | Cost Share - Out-of-Network |\n| --- | --- | --- |\n| Office Visits | $25 copay | 40% after deductible |\n| Specialist Visits | $40 copay | 50% after deductible |\n| Urgent Care | $75 copay | $75 copay |\n\nRow details:\nCovered Service: Office Visits | Cost Share - In-Network: $25 copay | Cost Share - Out-of-Network: 40% after deductible\nCovered Service: Specialist Visits | Cost Share - In-Network: $40 copay | Cost Share - Out-of-Network: 50% after deductible\nCovered Service: Urgent Care | Cost Share - In-Network: $75 copay | Cost Share - Out-of-Network: $75 copay",
+    "page_start": 12,
+    "page_end": 13,
+    "n_tokens": 181,
+    "table_id": "tbl-0007",
+    "part_index": 1,
+    "part_total": 1,
+    "n_rows": 5,
+    "n_cols": 3,
+    "column_labels": [
+      "Covered Service",
+      "Cost Share - In-Network",
+      "Cost Share - Out-of-Network"
+    ],
+    "has_spans": true,
+    "plan_id": "ACME-PPO-2000",
+    "group_number": "0084512",
+    "plan_year": 2026,
+    "effective_date": {
+      "$date": "2026-01-01T00:00:00Z"
+    },
+    "termination_date": null,
+    "carrier": "Acme Health",
+    "market_segment": "large_group",
+    "states": [
+      "IL",
+      "IN"
+    ],
+    "source_filename": "acme_ppo_2026_coc.pdf",
+    "source_sha256": "0cec93d4c7063672479992eebbbb23669408815396026d83af1e9b6634b580dd",
+    "pipeline_version": "1.1.0",
+    "chunk_config_hash": "5efb05892e89",
+    "created_at": {
+      "$date": "2026-08-15T14:28:40Z"
+    },
+    "updated_at": {
+      "$date": "2026-08-15T14:32:11Z"
+    },
+    "embed_model": "voyage-3.5",
+    "embed_dim": 1024,
+    "embedded_at": {
+      "$date": "2026-08-15T14:32:11Z"
+    },
+    "needs_review": false,
+    "extraction_notes": [],
+    "embedding": [
+      0.0231,
+      -0.0417,
+      0.0688,
+      0.0129,
+      -0.0553,
+      0.0342,
+      -0.0106,
+      0.0475
+    ]
+  },
+  {
+    "_id": "acme_ppo_2026#00003-6f10d43b",
+    "doc_id": "acme_ppo_2026",
+    "seq": 3,
+    "type": "table",
+    "heading": "Ambiguous Grid",
+    "section_path": [
+      "SECTION 4 - COVERED SERVICES",
+      "Ambiguous Grid"
+    ],
+    "breadcrumb": "SECTION 4 - COVERED SERVICES > Ambiguous Grid",
+    "text": "| A | B | C | D |\n| --- | --- | --- | --- |\n| Chiropractic |  | 20 visits |  |\n|  |  | per year |  |\n|  |  |  |  |",
+    "embed_text": "Section: SECTION 4 - COVERED SERVICES > Ambiguous Grid\nTable tbl-0008 (pages 14-14)\n\n| A | B | C | D |\n| --- | --- | --- | --- |\n| Chiropractic |  | 20 visits |  |\n|  |  | per year |  |\n|  |  |  |  |\n\nRow details:\nA: Chiropractic | C: 20 visits\nC: per year",
+    "page_start": 14,
+    "page_end": 14,
+    "n_tokens": 64,
+    "table_id": "tbl-0008",
+    "part_index": 1,
+    "part_total": 1,
+    "n_rows": 4,
+    "n_cols": 4,
+    "column_labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "has_spans": false,
+    "plan_id": "ACME-PPO-2000",
+    "group_number": "0084512",
+    "plan_year": 2026,
+    "effective_date": {
+      "$date": "2026-01-01T00:00:00Z"
+    },
+    "termination_date": null,
+    "carrier": "Acme Health",
+    "market_segment": "large_group",
+    "states": [
+      "IL",
+      "IN"
+    ],
+    "source_filename": "acme_ppo_2026_coc.pdf",
+    "source_sha256": "0cec93d4c7063672479992eebbbb23669408815396026d83af1e9b6634b580dd",
+    "pipeline_version": "1.1.0",
+    "chunk_config_hash": "5efb05892e89",
+    "created_at": {
+      "$date": "2026-08-15T14:28:40Z"
+    },
+    "updated_at": {
+      "$date": "2026-08-15T14:32:11Z"
+    },
+    "embed_model": "voyage-3.5",
+    "embed_dim": 1024,
+    "embedded_at": {
+      "$date": "2026-08-15T14:32:11Z"
+    },
+    "needs_review": true,
+    "extraction_notes": [
+      "9/12 table cells empty (75%) - verify grid detection"
+    ],
+    "embedding": [
+      0.0231,
+      -0.0417,
+      0.0688,
+      0.0129,
+      -0.0553,
+      0.0342,
+      -0.0106,
+      0.0475
+    ]
+  }
+]

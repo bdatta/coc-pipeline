@@ -1,0 +1,57 @@
+[
+  {
+    "_id": "q_01J8XA2K9F3D",
+    "question": "What is the copay for a specialist visit out-of-network?",
+    "doc_id": "acme_ppo_2026",
+    "plan_id": "ACME-PPO-2000",
+    "plan_year": 2026,
+    "retrieval": {
+      "mode": "vector",
+      "k": 8,
+      "num_candidates": 160,
+      "used_rerank": false,
+      "embed_model": "voyage-3.5",
+      "filters": {
+        "doc_id": "acme_ppo_2026"
+      }
+    },
+    "retrieved": [
+      {
+        "chunk_id": "acme_ppo_2026#00001-3408a8cb",
+        "score": 0.8412,
+        "rank": 1,
+        "type": "table",
+        "breadcrumb": "SECTION 4 - COVERED SERVICES > Outpatient Services > Physician Office Visits"
+      },
+      {
+        "chunk_id": "acme_ppo_2026#00000-9c1e77f4",
+        "score": 0.7318,
+        "rank": 2,
+        "type": "text",
+        "breadcrumb": "SECTION 4 - COVERED SERVICES"
+      }
+    ],
+    "answer": "Specialist visits are covered at 50% after the deductible when you use an Out-of-Network provider [1].",
+    "answer_model": "claude-sonnet-4-6",
+    "cited_chunk_ids": [
+      "acme_ppo_2026#00001-3408a8cb"
+    ],
+    "latency_ms": {
+      "embed": 118,
+      "search": 74,
+      "generate": 2140
+    },
+    "feedback": {
+      "rating": "up",
+      "expected_pages": [
+        12,
+        13
+      ],
+      "note": null
+    },
+    "asked_at": {
+      "$date": "2026-08-15T15:02:44Z"
+    },
+    "user_id": "svc-rep-0142"
+  }
+]
